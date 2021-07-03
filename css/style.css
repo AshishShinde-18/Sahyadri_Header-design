@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+
+.nav{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    text-shadow: black;
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+.col h1{
+    color:#bcb4aa;
+    font-size: xxx-large;
+    margin: 1rem 0;
+    letter-spacing: 2px;
+}
+
+.col p{
+    color:#bcb4aa;
+    font-size: x-large;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.btn{
+    width: 160px;
+    color: #000;
+    font-size: 18px;
+    padding: 12px 0;
+    background: #bcb4aa;
+    margin: 1.5rem 0;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: transparent;
+    color: #bcb4aa;
+    border:  2px solid;
+}
+
+.btn-login{
+    width: 160px;
+    color: #bcb4aa;
+    font-size: 18px;
+    padding: 12px 0;
+    background: black;
+    margin: 5rem;
+     border:  2px solid;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background: transparent;
+    color: aliceblue;
+    border:  2px solid;
+}
+
+.card {
+    width: 190px;
+    height: 210px;
+    display: inline-block;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    border-radius: 10px;
+  
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(/img/naneghat_fort.jpg);
+}
+.card2{
+    background-image: url(/img/jivdhan.jpg);
+}
+.card3{
+    background-image: url(/img/lingana.jpg);
+}
+.card4{
+    background-image: url(/img/pratapgad_fort.jpg);
+}
+
+.card h5{
+    font-size: x-large;
+}
+
+.card p{
+    font-size: 12px
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
